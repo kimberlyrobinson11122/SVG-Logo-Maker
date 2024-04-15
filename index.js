@@ -4,7 +4,7 @@ const fs = require("fs");
 const filename = "logo.svg"
 
 // function added to handle color selection validation
-function validateColor(input) {
+const validateColor = (input) => {
     if (input.match(/^#[0-9a-fA-F]{6}$/i)) {
         // input is a hexadecimal color
         return true;
@@ -14,7 +14,7 @@ function validateColor(input) {
     } else {
         return 'Please enter a valid color using a color name or hexadecimal.';
     }
-}
+};
 
 //user questions/prompts
 inquirer.prompt([
@@ -22,13 +22,14 @@ inquirer.prompt([
         type: 'input',
         message: 'What three letters would you like in your logo?',
         name: 'pLetters',
+        //validate only three letters, else throw error
     }, 
 
     {
         type: 'input',
         message: 'What color would you like that text to be?',
         name: 'pTextColor',
-        validate: validateColor
+        validate: validateColor,
     },
              
     {
@@ -41,7 +42,7 @@ inquirer.prompt([
     {   type: 'input',
         message: 'What color would you the logo shape to be?',
         name: 'pShapeColor',
-        validate: validateColor
+        validate: validateColor,
     }
 
 ]).then((data) => {
