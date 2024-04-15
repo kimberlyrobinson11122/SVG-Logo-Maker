@@ -3,6 +3,19 @@ const fs = require("fs");
 
 const filename = "logo.svg"
 
+// function added to handle color selection validation
+function validateColor(input) {
+    if (input.match(/^#[0-9a-fA-F]{6}$/i)) {
+        // input is a hexadecimal color
+        return true;
+    } else if (input.match(/^[a-zA-Z]+$/)) {
+        // input is a color name (any alphabetical input)
+        return true;
+    } else {
+        return 'Please enter a valid color using a color name or hexadecimal.';
+    }
+}
+
 //user questions/prompts
 inquirer.prompt([
     {
@@ -15,17 +28,7 @@ inquirer.prompt([
         type: 'input',
         message: 'What color would you like that text to be?',
         name: 'pTextColor',
-        validate: function (input) {
-            if (input.match(/^#[0-9a-fA-F]{6}$/i)) {
-                //input hexadecimal
-                return true;
-            } else if (['white', 'red', 'green', 'blue', 'pink', 'yellow'].includes(input.toLowerCase())) {
-                //input color
-                return true;
-            } else {
-                return 'please enter a valid color using a keyword or hexadecimal.';
-            }
-        }
+        validate: validateColor
     },
              
     {
@@ -38,17 +41,7 @@ inquirer.prompt([
     {   type: 'input',
         message: 'What color would you the logo shape to be?',
         name: 'pShapeColor',
-        validate: function (input) {
-            if (input.match(/^#[0-9a-fA-F]{6}$/i)) {
-                //input input hexadecimal
-                return true;
-            } else if (['white', 'red', 'green', 'blue', 'pink', 'yellow'].includes(input.toLowerCase())) {
-                //input color
-                return true;
-            } else {
-                return 'please enter a valid color using a keyword or hexadecimal.';
-            }
-        }
+        validate: validateColor
     }
 
 ]).then((data) => {
