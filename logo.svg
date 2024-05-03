@@ -4,7 +4,7 @@
      viewBox="-100 -100 200 200"
     >
 
-    <g fill="orange">
+    <g fill="White">
     <polygon points="0,-80 70,80 -70,80"/>
 
     <text
@@ -13,12 +13,12 @@
         text-anchor="middle"
         alignment-baseline="middle"
         dominant-baseline="middle"
-        fill="powderblue"
+        fill="Pink"
         font-family="Tahoma"
         font-weight="bold"
         font-size="30"
     >
-    ajwoerfa80ws9e8df</text>
+    MIA</text>
 
     </g>
 </svg>
