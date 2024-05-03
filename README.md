@@ -2,14 +2,13 @@
 
 #### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-## Deployed Application
-[Deployed Code (click here)]
+## Application
 
-Example of Deployed link: https://github.com/kimberlyrobinson11122/Kimberly-Robinson-Portfolio/deployments
+SVG Logo Maker Readme: (https://github.com/kimberlyrobinson11122/SVG-Logo-Maker)
 
-Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/REPO-NAME)
+Available from the CLI in visual studio or similar interfaces.
 
-## Images
+## Image
 
 Screenshot of the first build:
 
@@ -22,9 +21,9 @@ PROJECT OVERVIEW
 
 - [Project Title](#project-title-top)
 
-- [Deployed Application](#deployed-application)
+- [Application](#application)
 
-- [Screenshots](#images)
+- [Screenshots](#image)
 
 - [Description](#description)
 
