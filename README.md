@@ -13,13 +13,8 @@ Example of link for Repo for Readme: (https://kimberlyrobinson11122.github.io/RE
 
 Screenshot of the first build:
 
-placeholder ![screen shot of initial build](./assets/)
-A sized image: ![Alt](img.jpg =60x50)
+Initial Build: CLI showing prompts and SVG triangle output ![CLI showing prompts and SVG triangle output](./lib/images/Full%20Script%20being%20run%20from%20CLI.jpg)
 
-Screenshot of feature:
-
-placeholder ![screen shot of feature](./assets/)
-A sized image: ![Alt](img.jpg =60x50)
 
 ## Table of Contents
 
@@ -49,8 +44,6 @@ DEVELOPMENT ODYSSEY
 
 - [Questions or Issues](#questions-issues)
 
-- [Acceptance Criteria](#acceptance-criteria)
-
 ---------------------
 
 ADDITIONAL INFORMATION
@@ -73,7 +66,7 @@ tool to use as a web developer to generate simple logos for my projects so I don
 
 
 ## Installation
-install inst. tbd
+This is meant to be run from the integrated terminal, execute by running node index.js and if you have questions please reach us at the github below. 
 
 
 ## Usage
@@ -82,18 +75,16 @@ for client project, create simple logos
 
 ## Challenges
 
-1. Item 1
-2. Item 2
-3. Item 3
+1. Getting the text in the correct location at the center of the shape
+2. Creating the tests to pass appropriately
+3. Figuring out why the tests wouldn't run, missing items in package.json file
 
 ## Test
-will need testing, tbd
+You can run npm run test on the integrated terminal to run testing.
 
 Consistent testing throughout each iteration prior to deployment. 
 
 ## Contributions
-contribution tbd
-
 This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
 
 ## Questions or Issues
@@ -103,38 +94,20 @@ If you have any questions or encounter any issues, please don't hesitate to cont
 
 Email: tbd
 
-## Acceptance Criteria
-**Optional section** - this is an extra layer for those who have working list of criteria to be met, this section is a working section and is to be deleted when you deploy your first build. ==(Must edit this section)==
-
-- [ ] Incomplete item  (use this to create a checklist - [ ])
-- [x] Complete item (use this to mark items complete on your checklist- [x])
-
-
-____________________________________________________
-
-- [ ] command-line application that accepts user input
-- [ ] I am prompted for text, I can enter up to three characters
-- [ ] I am prompted for the text color, I can enter a color keyword (OR a hexadecimal number)
-- [ ] I am prompted for a shape, I am presented with a list of shapes to choose from: circle, triangle, and square
-- [ ] I am prompted for the shape's color, I can enter a color keyword (OR a hexadecimal number)
-- [ ] I have entered input for all the prompts, an SVG file is created named `logo.svg`
-- [ ] the output text "Generated logo.svg" is printed in the command line, I
-- [ ] open the `logo.svg` file in a browser, I am shown a 300x200 pixel image that matches the criteria I entered
-
 ## Credits
-The project was started from scratch and developed iteratively or with starter code. ==(Must edit this section)==
+The project was started from scratch and developed iteratively very painfully.
 
 ## License
 This application/project is covered under the MIT License.
 
 ## Authors and acknowledgment
-Appreciation to the incredible Instructor, TAs, Tutors at EdX Berkeley.
+Appreciation to the incredible Instructor, TAs (Bobbi T. you are fabulous), Tutors at EdX Berkeley.
 
 ## Project Status
 This initial build is complete and was built to project specification.
 
 ## Extra comments for sustainability team
-Your extra comments here.
+Released May 2024, team to take over after approval from CG. 
 
 ## Future Features
-Future features commented here.
+Integrated so this can be embedded into HTML, added to the list of potential updates/upgrades.
