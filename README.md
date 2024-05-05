@@ -61,7 +61,7 @@ ADDITIONAL INFORMATION
 
 
 ## Description
-tool to use as a web developer to generate simple logos for my projects so I don't have to pay a graphic designer
+Tool to use as a web developer to generate simple logos for my projects so I don't have to pay a graphic designer
 
 
 ## Installation
@@ -69,7 +69,7 @@ This is meant to be run from the integrated terminal, execute by running node in
 
 
 ## Usage
-for client project, create simple logos
+For client project, create simple logos
 
 
 ## Challenges
@@ -87,11 +87,9 @@ Consistent testing throughout each iteration prior to deployment.
 This is in a steady state until feature requests are submitted to the above email address and will be considered with owner approval.
 
 ## Questions or Issues
-If you have any questions or encounter any issues, please don't hesitate to contact me through either of the following methods:
+If you have any questions or encounter any issues, please don't hesitate to contact me through GitHub:
 
 [GitHub Profile](https://github.com/kimberlyrobinson11122)
-
-Email: tbd
 
 ## Credits
 The project was started from scratch and developed iteratively very painfully.
