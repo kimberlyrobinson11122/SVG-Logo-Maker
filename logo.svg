@@ -1,7 +1,7 @@
-<svg class="circle"
+<svg xmlns="http://www.w3.org/2000/svg" class="circle"
             width="300"
             height="200"
             viewBox="-100 -100 200 200">
-            <circle cx="0" cy="0" r="70" fill="Pink"/>
-            <text x="0" y="0" text-anchor="middle" alignment-baseline="middle" fill="#FFFFFF">MIA</text>
+            <circle cx="0" cy="0" r="70" fill="pink"/>
+            <text x="0" y="0" text-anchor="middle" alignment-baseline="middle" fill="white">MIA</text>
         </svg>
